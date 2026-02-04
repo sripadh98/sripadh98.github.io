@@ -37,56 +37,42 @@
     </style>
 </head>
 <body class="bg-[#0a0a0a] text-white">
-    <!-- Nav -->
     <nav class="container mx-auto px-6 py-6 flex justify-between items-center">
         <div class="text-2xl font-bold gradient-text">Mesh</div>
         <a href="#waitlist" class="bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition">
             Join Waitlist
         </a>
     </nav>
-
-    <!-- Hero -->
     <section class="container mx-auto px-6 pt-20 pb-32">
         <div class="max-w-4xl mx-auto text-center">
             <div class="inline-block mb-6 px-4 py-1.5 bg-white/5 border border-white/10 rounded-full text-sm text-gray-400">
                 For founders, job seekers & ambitious builders
             </div>
-            
             <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                Your network is a 
-                <span class="gradient-text">graph</span>, 
-                not a list.
+                Your network is a <span class="gradient-text">graph</span>, not a list.
             </h1>
-            
             <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
                 Stop losing track of who knows who. Mesh maps your ecosystem, surfaces hidden connections, and tells you exactly who to talk to.
             </p>
-            
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#waitlist" class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-8 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition">
-                    Join the Waitlist →
+                    Join the Waitlist
                 </a>
                 <a href="#how-it-works" class="border border-white/20 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/5 transition">
                     See How It Works
                 </a>
             </div>
         </div>
-
-        <!-- Graph Visualization Placeholder -->
         <div class="mt-20 max-w-4xl mx-auto">
             <div class="gradient-border">
                 <div class="gradient-border-inner min-h-[300px] flex items-center justify-center relative overflow-hidden">
-                    <!-- Simplified network graph SVG -->
                     <svg viewBox="0 0 400 200" class="w-full max-w-lg">
-                        <!-- Connections -->
                         <line x1="200" y1="100" x2="80" y2="60" stroke="#6366f1" stroke-width="2" opacity="0.5"/>
                         <line x1="200" y1="100" x2="320" y2="60" stroke="#8b5cf6" stroke-width="2" opacity="0.5"/>
                         <line x1="200" y1="100" x2="100" y2="160" stroke="#6366f1" stroke-width="2" opacity="0.5"/>
                         <line x1="200" y1="100" x2="300" y2="160" stroke="#d946ef" stroke-width="2" opacity="0.5"/>
                         <line x1="80" y1="60" x2="100" y2="160" stroke="#6366f1" stroke-width="1" opacity="0.3"/>
                         <line x1="320" y1="60" x2="300" y2="160" stroke="#d946ef" stroke-width="1" opacity="0.3"/>
-                        
-                        <!-- Nodes -->
                         <g class="node">
                             <circle cx="200" cy="100" r="20" fill="#6366f1"/>
                             <text x="200" y="105" text-anchor="middle" fill="white" font-size="10">You</text>
@@ -107,44 +93,32 @@
                             <circle cx="300" cy="160" r="15" fill="#ec4899"/>
                             <text x="300" y="185" text-anchor="middle" fill="#9ca3af" font-size="9">Legal</text>
                         </g>
-                        
-                        <!-- Bridge highlight -->
                         <circle cx="200" cy="100" r="30" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4" opacity="0.5"/>
                     </svg>
-                    
                     <div class="absolute bottom-4 left-4 text-sm text-gray-500">
-                        ↑ Your network, visualized by domain
+                        Your network, visualized by domain
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Problem Section -->
     <section class="bg-white/[0.02] py-24">
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mx-auto text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Networking is broken.
-                </h2>
-                <p class="text-gray-400 text-lg">
-                    You meet people. Connect on LinkedIn. Then... nothing. Sound familiar?
-                </p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Networking is broken.</h2>
+                <p class="text-gray-400 text-lg">You meet people. Connect on LinkedIn. Then... nothing. Sound familiar?</p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div class="bg-white/5 p-6 rounded-xl border border-white/10">
                     <div class="text-3xl mb-4">😅</div>
                     <h3 class="font-semibold text-lg mb-2">"Who do I know at...?"</h3>
                     <p class="text-gray-400 text-sm">You need an intro to a company. You probably know someone who knows someone. But who?</p>
                 </div>
-                
                 <div class="bg-white/5 p-6 rounded-xl border border-white/10">
                     <div class="text-3xl mb-4">🤔</div>
                     <h3 class="font-semibold text-lg mb-2">"I should connect them..."</h3>
                     <p class="text-gray-400 text-sm">Two people in your network would hit it off. But you only realize this months later.</p>
                 </div>
-                
                 <div class="bg-white/5 p-6 rounded-xl border border-white/10">
                     <div class="text-3xl mb-4">📉</div>
                     <h3 class="font-semibold text-lg mb-2">"We lost touch..."</h3>
@@ -153,28 +127,20 @@
             </div>
         </div>
     </section>
-
-    <!-- How It Works -->
     <section id="how-it-works" class="py-24">
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mx-auto text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    How <span class="gradient-text">Mesh</span> works
-                </h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">How <span class="gradient-text">Mesh</span> works</h2>
             </div>
-
             <div class="max-w-4xl mx-auto space-y-16">
-                <!-- Step 1 -->
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="flex-1">
                         <div class="text-indigo-400 font-mono text-sm mb-2">01</div>
                         <h3 class="text-2xl font-bold mb-3">Capture with context</h3>
-                        <p class="text-gray-400">
-                            Clip a LinkedIn profile. Our AI extracts their career arc, domain expertise, and conversation hooks — in seconds. No manual data entry.
-                        </p>
+                        <p class="text-gray-400">Clip a LinkedIn profile. Our AI extracts their career arc, domain expertise, and conversation hooks — in seconds. No manual data entry.</p>
                     </div>
                     <div class="flex-1 bg-white/5 rounded-xl p-6 border border-white/10">
-                        <div class="text-sm font-mono text-gray-500 mb-2">→ AI Summary</div>
+                        <div class="text-sm font-mono text-gray-500 mb-2">AI Summary</div>
                         <div class="text-sm">
                             <p class="text-purple-400 mb-1">Career Arc:</p>
                             <p class="text-gray-300 mb-3">MSc → Startup founder → Now at SRIC building biotech ecosystem</p>
@@ -183,18 +149,14 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Step 2 -->
                 <div class="flex flex-col md:flex-row-reverse gap-8 items-center">
                     <div class="flex-1">
                         <div class="text-purple-400 font-mono text-sm mb-2">02</div>
                         <h3 class="text-2xl font-bold mb-3">Map your ecosystem</h3>
-                        <p class="text-gray-400">
-                            See your network as a graph, not a spreadsheet. Filter by domain. Spot the bridges — people who connect different worlds.
-                        </p>
+                        <p class="text-gray-400">See your network as a graph, not a spreadsheet. Filter by domain. Spot the bridges — people who connect different worlds.</p>
                     </div>
                     <div class="flex-1 bg-white/5 rounded-xl p-6 border border-white/10">
-                        <div class="text-sm font-mono text-gray-500 mb-2">→ Domain Bridges</div>
+                        <div class="text-sm font-mono text-gray-500 mb-2">Domain Bridges</div>
                         <div class="text-sm space-y-2">
                             <div class="flex items-center gap-2">
                                 <span class="bg-green-500/20 text-green-400 px-2 py-0.5 rounded text-xs">#biotech</span>
@@ -206,18 +168,14 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Step 3 -->
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="flex-1">
                         <div class="text-pink-400 font-mono text-sm mb-2">03</div>
                         <h3 class="text-2xl font-bold mb-3">Get actionable insights</h3>
-                        <p class="text-gray-400">
-                            "Who can intro me to Genentech?" — Mesh searches your network graph. "Sarah knows their VP of Partnerships. You last talked 2 months ago."
-                        </p>
+                        <p class="text-gray-400">"Who can intro me to Genentech?" — Mesh searches your network graph. "Sarah knows their VP of Partnerships. You last talked 2 months ago."</p>
                     </div>
                     <div class="flex-1 bg-white/5 rounded-xl p-6 border border-white/10">
-                        <div class="text-sm font-mono text-gray-500 mb-2">→ Intro Pathfinding</div>
+                        <div class="text-sm font-mono text-gray-500 mb-2">Intro Pathfinding</div>
                         <div class="text-sm">
                             <p class="text-gray-400 mb-2">Path to Genentech:</p>
                             <div class="flex items-center gap-2 text-gray-300">
@@ -234,32 +192,23 @@
             </div>
         </div>
     </section>
-
-    <!-- Who It's For -->
     <section class="bg-white/[0.02] py-24">
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mx-auto text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Built for builders
-                </h2>
-                <p class="text-gray-400 text-lg">
-                    If your next opportunity depends on who you know, Mesh is for you.
-                </p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Built for builders</h2>
+                <p class="text-gray-400 text-lg">If your next opportunity depends on who you know, Mesh is for you.</p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div class="text-center">
                     <div class="text-4xl mb-4">🚀</div>
                     <h3 class="font-semibold text-lg mb-2">Founders</h3>
                     <p class="text-gray-400 text-sm">Fundraising, hiring, partnerships — your network is your unfair advantage. Use it.</p>
                 </div>
-                
                 <div class="text-center">
                     <div class="text-4xl mb-4">🎯</div>
                     <h3 class="font-semibold text-lg mb-2">Job Seekers</h3>
                     <p class="text-gray-400 text-sm">80% of jobs come through referrals. Find the warm intro path to your dream company.</p>
                 </div>
-                
                 <div class="text-center">
                     <div class="text-4xl mb-4">🎓</div>
                     <h3 class="font-semibold text-lg mb-2">Ambitious Grads</h3>
@@ -268,17 +217,11 @@
             </div>
         </div>
     </section>
-
-    <!-- Pricing Preview -->
     <section class="py-24">
         <div class="container mx-auto px-6">
             <div class="max-w-xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-6">
-                    Priced for builders, not enterprises.
-                </h2>
-                <p class="text-gray-400 mb-8">
-                    We're not charging $20/month for a glorified contact list. Mesh will have a generous free tier and affordable pro plans — because we know you're pre-revenue or between jobs.
-                </p>
+                <h2 class="text-3xl font-bold mb-6">Priced for builders, not enterprises.</h2>
+                <p class="text-gray-400 mb-8">We're not charging $20/month for a glorified contact list. Mesh will have a generous free tier and affordable pro plans — because we know you're pre-revenue or between jobs.</p>
                 <div class="inline-block bg-white/5 border border-white/10 rounded-xl px-8 py-6">
                     <div class="text-gray-500 text-sm mb-1">Early Adopter Pricing</div>
                     <div class="text-4xl font-bold mb-1">$5<span class="text-lg text-gray-500">/month</span></div>
@@ -287,52 +230,28 @@
             </div>
         </div>
     </section>
-
-    <!-- Waitlist CTA -->
     <section id="waitlist" class="py-24">
         <div class="container mx-auto px-6">
             <div class="max-w-2xl mx-auto">
                 <div class="gradient-border">
                     <div class="gradient-border-inner text-center">
-                        <h2 class="text-3xl font-bold mb-4">
-                            Join the waitlist
-                        </h2>
-                        <p class="text-gray-400 mb-8">
-                            Be first to access Mesh. Early adopters get lifetime discounted pricing.
-                        </p>
-                        
+                        <h2 class="text-3xl font-bold mb-4">Join the waitlist</h2>
+                        <p class="text-gray-400 mb-8">Be first to access Mesh. Early adopters get lifetime discounted pricing.</p>
                         <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto" action="#" method="POST">
-                            <input 
-                                type="email" 
-                                placeholder="you@email.com" 
-                                required
-                                class="flex-1 px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-purple-500 transition"
-                            />
-                            <button 
-                                type="submit"
-                                class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition whitespace-nowrap"
-                            >
-                                Join Waitlist
-                            </button>
+                            <input type="email" placeholder="you@email.com" required class="flex-1 px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-purple-500 transition"/>
+                            <button type="submit" class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition whitespace-nowrap">Join Waitlist</button>
                         </form>
-                        
-                        <p class="text-gray-600 text-sm mt-4">
-                            No spam. Just product updates.
-                        </p>
+                        <p class="text-gray-600 text-sm mt-4">No spam. Just product updates.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
     <footer class="border-t border-white/10 py-12">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="text-xl font-bold gradient-text">Mesh</div>
-                <div class="text-gray-500 text-sm">
-                    Built in Montreal 🇨🇦
-                </div>
+                <div class="text-gray-500 text-sm">Built in Montreal</div>
                 <div class="flex gap-6 text-gray-400 text-sm">
                     <a href="#" class="hover:text-white transition">Twitter</a>
                     <a href="#" class="hover:text-white transition">LinkedIn</a>
