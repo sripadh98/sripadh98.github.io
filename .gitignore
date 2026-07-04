@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+
+# Source material — kept local, not published to the site repo.
+# (The site only uses assets/cv/Sripadh_Yedire_CV.pdf)
+/CV_Sripadh_CC.pdf
+/CV_Sripadh_CTI.pdf
+/CV_Sripadh_VC.pdf
+/CV_Sripadh_VCv5.docx
+/LinkedIn_Profile.pdf
