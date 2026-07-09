@@ -14,8 +14,9 @@
   --accent-warm: #b5541b;  /* amber, used sparingly */
   --sel: #cfe3d4;
   --maxw: 900px;
+  --sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
-  --display: "Space Mono", var(--mono);
+  --display: "Bricolage Grotesque", var(--sans);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -23,7 +24,7 @@
 html { scroll-behavior: smooth; scroll-padding-top: 76px; }
 
 body {
-  font-family: var(--mono);
+  font-family: var(--sans);
   background: var(--paper);
   color: var(--ink);
   line-height: 1.65;
@@ -52,6 +53,16 @@ sup { font-size: 0.7em; }
 /* Blinking cursor */
 .cursor { color: var(--accent-warm); font-weight: 700; animation: blink 1.05s steps(1) infinite; }
 @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+
+/* Monospace reserved for terminal-literal accents; everything else is sans */
+.prompt, .bar__path, .bar__nav, .bar__toggle,
+.section__intro, .readout__title, .readout__list,
+.work__path, .work__foot, .work__lens-k, .work__meta dt,
+.tl__date, .tl__tags, .pub__venue, .col__label,
+.contact__line, .footer__inner,
+.head__num, .pub::before, .frame li::before {
+  font-family: var(--mono);
+}
 
 /* ---------- Buttons (as commands) ---------- */
 .btn {
